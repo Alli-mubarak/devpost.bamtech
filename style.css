@@ -1,0 +1,93 @@
+body{
+    margin: 0; padding: 0;
+    
+}
+header{
+    border-bottom: 2px solid;
+    background: #ddd;
+    padding: 10px 0;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+}
+main{
+    padding: 10px;
+}
+/* main section{
+    height: 500px;
+} */
+ .quiz-container{
+    width: 80%;
+    overflow: hidden;
+    background: #ddd;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+ }
+ .quiz-question{
+    /* background: grey; */
+    height: 300px;
+    overflow: hidden;
+ }
+ .answers{
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px 0;
+ }
+ .answers p{
+    border: 2px solid transparent;
+    background: #eee;
+    border-radius: 5px;
+    padding: 3px 0;
+    font-size: 14px;
+    width: 80%;
+    margin:13px auto;
+    cursor: pointer;
+ }
+ .quiz-container button{
+    width: 60%;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 0;
+    background: lightgray;
+ }
+#posts div{
+    margin: 20px auto;
+    width: 70%;
+    background: #eee;
+    border-radius: 10px;
+    padding: 20px ;
+}
+#posts div .time-date{
+    text-align: center;
+    font-size: 10px;
+    margin-left: auto;
+    font-weight: bold;
+    font-family: monospace;
+    width: 20%;
+}
+.refresh-box{
+    text-align: right;
+    padding: 20px;
+}
+#refresh{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer{
+    background: #111;
+    color: #eee;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+footer p{
+    font-size: 8px;
+}
