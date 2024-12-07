@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Web</h1>
+    </header>
+    <main>
+        <section class="quiz-container">
+            <h3>QUIZ</h3>
+            <div class="quiz-question">
+                <div>
+                <h4>Question 1</h4>
+                <p>What is the full meaning of FUD ?</p>
+                <div class="answers">
+                    <p onclick="choose(this)">For Unnderstanding Desire</p>
+                    <p onclick="choose(this)">Fully Under Dissolution</p>
+                    <p onclick="correct(this)">Fear, Uncertainty, Doubt</p>
+                    <p onclick="choose(this)">Failure, Undecided, Depresssion </p>
+                </div>
+                </div>
+                <div>
+                    <h4>Question 2</h4>
+                    <p>What is the full meaning of DEX ?</p>
+                    <div class="answers">
+                        <p onclick="choose(this)">Delivery Express</p>
+                        <p onclick="choose(this)">Decentraland Extension</p>
+                        <p onclick="choose(this)">Developers Excalation</p>
+                        <p onclick="correct(this)">Decentralized Exchange </p>
+                    </div>
+                </div>
+                    <div>
+                        <h4>Question 3</h4>
+                        <p>Which of the following is not a Blockchain Network ?</p>
+                        <div class="answers">
+                            <p onclick="choose(this)">Solana</p>
+                            <p onclick="correct(this)">Pukar</p>
+                            <p onclick="choose(this)">Ethereum</p>
+                            <p onclick="choose(this)">Polkadot</p>
+                        </div>
+                    </div>
+                        <div>
+                            <h4>Question 4</h4>
+                            <p>What is the first crypto to ever existed ?</p>
+                            <div class="answers">
+                                <p onclick="correct(this)">BTC</p>
+                                <p onclick="choose(this)">TON</p>
+                                <p onclick="choose(this)">DOT</p>
+                                <p onclick="choose(this)">ETH</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Total Score</h4>
+                            <h6>You scored <span id="score"></span> out of <span id="total"></span>!</h6>
+                        </div>
+            </div>
+            <div class="button-box">
+                <button onclick="submit()">Submit</button>
+            </div>
+        </section>
+        <section id="posts"></section>
+    </main>
+    <div class="refresh-box">
+    <button id="refresh" onclick="loadPosts()">refresh</button>
+   </div>
+    <footer>
+        <h4>Simply created for test-running local server</h4>
+        <h5>By BAM-tech</h5>
+        <h6>Dec,2024</h6>
+        <p class="date"></p>
+        <p class="time"></p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
